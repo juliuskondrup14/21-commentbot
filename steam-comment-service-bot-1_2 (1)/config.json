@@ -1,0 +1,19 @@
+{
+    "disableautoupdate": false,
+    "childaccsplaygames": false,
+    "commentdelay": 10000,
+    "allowcommentcmdusage": true,
+    "skipSteamGuard": false,
+    "commentcooldown": 5,
+    "globalcommentcooldown": 90000,
+    "repeatedComments": 3,
+    "unfriendtime": 31,
+    "playinggames": ["!help | 6x6", 440, 730],
+    "yourgroup": "https://steamcommunity.com/groups/the6x6",
+    "botsgroup": "https://steamcommunity.com/groups/the6x6",
+    "acceptgroupinvites": true,
+    "owner": "https://steamcommunity.com/id/St1xDOG",
+    "ownerid": ["76561198231550484"],
+    "enableevalcmd": true,
+    "enableurltocomment": true
+}
