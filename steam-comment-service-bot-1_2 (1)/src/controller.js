@@ -200,10 +200,10 @@ var commenteverywhere = (steamID, numberofcomments, requesterSteamID, res, quote
 
         if (i == numberofcomments - 1) { //last iteration
           if (Object.keys(failedcomments[requesterSteamID]).length > 0) {
-            failedcmdreference = "\nTo get detailed information why which comment failed please type '!failed'. You can read why your error was probably caused here: https://github.com/HerrEurobeat/steam-comment-service-bot/wiki/Errors,-FAQ-&-Common-problems"
+            failedcmdreference = "\nTo get detailed information why which comment failed please type '!failed'.You can read why your error was probably caused here: https://steamcommunity.com/groups/the6x6"
           } else { failedcmdreference = "" }
-          respondmethod(`All comments have been sent. Failed: ${Object.keys(failedcomments[requesterSteamID]).length}/${numberofcomments}\nRemember to comment back on this profile https://steamcommunity.com/id/i2q/ or I will block/remove you.
-           Add this https://steamcommunity.com/profiles/76561198993313778 if you get errors with comments.${failedcmdreference}`);
+          respondmethod(`All comments have been sent. Failed: ${Object.keys(failedcomments[requesterSteamID]).length}/${numberofcomments}\nRemember to comment back on this profile https://steamcommunity.com/id/St1xDOG/ or I will block/remove you.
+           Add this https://steamcommunity.com/id/St1xBeatbox/ if you get errors with comments.${failedcmdreference}`);
 
 
           if (Object.values(failedcomments[requesterSteamID]).includes("Error: The settings on this account do not allow you to add comments.")) {
